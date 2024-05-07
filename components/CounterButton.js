@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function CounterButton({increment}) {
      /*DO NOT EDIT THIS LINE */ console.log("CounterButton rendered!"); //DO NOT edit this line 
@@ -6,7 +6,7 @@ function CounterButton({increment}) {
      
      return(
      <>
-     <button onClick={increment}>increment</button>
+     <button onClick={increment}>Increment</button>
      </>
     )
 }
